@@ -4,6 +4,8 @@ Today you will be experimenting with different machine learning models for the b
 
 **This assignment counts toward your Discussion and Class Participation grade, which is 5% of your final grade in the class.**
 
+Remember: we went over how to do k-fold cross validation and how to use different ML algorithms in class on 12.2, 13.1, and 13.2, Please refer to the week 12 [Colab notebook](https://colab.research.google.com/drive/1k2qftddD8Mbn0rZ62yybv_1zLet65RUP?usp=sharing) for the code.
+
 Let's get started
 
 ## 1. Getting started
