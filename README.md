@@ -9,7 +9,6 @@ Remember: we went over how to do k-fold cross validation and how to use differen
 Let's get started
 
 ## 1. Getting started
-Select one person on your team to be the submitter. Then do the following together with that person being the "driver". You'll be submitting a solution together as one team to the competition.
 
 1. Follow the directions in the slides from Tuesday to create an account.
 2. Open [the Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic-tutorial) in one window.
@@ -87,10 +86,10 @@ It's totally fine if your results are not any better than any of your other mode
 ## Deliverables
 Once you are done with all your experiments and have submitted 10 (or more) submissions to the competition, you will do the following:
 
-1. Insert a text cell at the top of your final Kaggle notebook and enter your names.
-2. Download your Kaggle notebook (`File->Download notebook`) to your computer. Rename the notebook to be `TeamMember1Name_TeamMember2Name_Titanic.ipynb`. Make sure the notebook includes a good selection of experiments with the classifiers we have learned and all three experiments with the new classifiers you chose. Indicate which experiment corresponds to which leaderboard entry. **Comment you code well so we understand what you are doing!**
+1. Insert a text cell at the top of your final Kaggle notebook and enter your name.
+2. Download your Kaggle notebook (`File->Download notebook`) to your computer. Rename the notebook to be `YourName_Titanic.ipynb`. Make sure the notebook includes a good selection of experiments with the classifiers we have learned and all three experiments with the new classifiers you chose. Indicate which experiment corresponds to which leaderboard entry. **Comment you code well so we understand what you are doing!**
 3. Take a screenshot of your leaderboard results.
-4. Put the notebook and the screenshot in your GitHub repo, commit, and push. **Even though this is a team project, each teammate should add these two files to their personal GitHub repo.**
+4. Put the notebook and the screenshot in your GitHub repo, commit, and push. 
 
 **This is due Wednesday, November 27, 11:59pm EDT.** 
 
