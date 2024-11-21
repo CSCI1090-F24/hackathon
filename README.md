@@ -1,45 +1,20 @@
 # Kaggle Hackathon
 
-Today you will be experimenting with different machine learning models for the beginner Kaggle competition using the Titanic dataset. You will work with your team members to try to improve upon the results for the random forest classifier demonstrated in the tutorial for this competition. 
+Today you will be experimenting with different machine learning models for the beginner Kaggle competition using the Titanic dataset. You will work to try to improve upon the results for the baseline random forest classifier demonstrated in the tutorial for this competition. The specific instructions are below. You must complete all of the work to get *any* credit for this assignment.
 
-**This assignment counts toward your Discussion and Class Participation grade, which is 10% of your final grade in the class.**
+**This assignment counts toward your Discussion and Class Participation grade, which is 5% of your final grade in the class.**
 
 Let's get started
-
-## Teams
-Here are the teams:
-
-* Erick, Riki
-* Ryan, Sam
-* Lynn, Abby
-* Lulu, Katie
-* Irene, Allison
-* Kate, Lina
-* Maya, Grace
-* Christine, Luke
-* Jasmine, Kasey
-* Sarah, Olivia
-* Georgette, Bella
-* Richard, Stephen	
-* Zach, Salamun
-* Ethan, Ike
-* Quoc, Ivan
-* Alba, Amelia
-* Aditya, Nolan
-* Rey, John
-* Chris, Jackson
-* Esther, Xiaowei
-
 
 ## 1. Getting started
 Select one person on your team to be the submitter. Then do the following together with that person being the "driver". You'll be submitting a solution together as one team to the competition.
 
 1. Follow the directions in the slides from Tuesday to create an account.
 2. Open [the Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic-tutorial) in one window.
-3. In another window, join the ["Titanic - Machine Learning from Disaster" beginner competition](https://www.kaggle.com/competitions/titanic).
-4. Follow along with the tutorial to create a new notebook.
-5. Enter the code from the tutorial into the notebook.
-6. Follow all the directions in the notebook to make your first submission. **Note:** In the tutorial it says "Click on the Data tab on the top of the screen. Then, click on the Submit button to submit your results." There is no Data tab! Instead you click on the **"Output"** tab.
+4. In another window, join the ["Titanic - Machine Learning from Disaster" beginner competition](https://www.kaggle.com/competitions/titanic).
+5. Follow along with the tutorial to create a new notebook (i.e., click the Code tab, then New Notebook).
+6. Enter the code from the tutorial into the notebook.
+7. Follow all the directions in the notebook to make your first submission. **Note:** In the tutorial it says "Click on the Data tab on the top of the screen. Then, click on the Submit button to submit your results." There is no Data tab! Instead you click on the **"Output"** tab.
 
 An interesting note about the code: in the code I've shared with you, I used the pandas `factorize()` function to convert "male" and "female" to `0` and `1`. I learned from this notebook that you can do the same thing with the function `get_dummies()`. From what I understand, `get_dummies()` only works for binary labels (0, 1), while factorize can create more than 2 labels if necessary. There are other differences as well.
 
@@ -72,9 +47,9 @@ Okay, now you need to start building new models with the new train set you creat
 
 1. Build each of the four classifiers we've learned so far using your new train partition: [`LogisticRegression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html), [`DecisionTreeClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), [`RandomForestClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), and [`GradientBoostingClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier). Evaluate them using your new dev partition. 
 
-2. Change the parameters of those models to see if you can find improvements. For example, for `RandomForestClassifier`, you can increase or decrease the number of estimators. Not sure what all the parameters are? Check out the documentation by following the links to the classes above. It's okay if you don't totally understand what the parameters are doing.
+2. Change the **parameters** of those models to see if you can find improvements. For example, for `RandomForestClassifier`, you can increase or decrease the number of estimators. Not sure what all the parameters are? Check out the documentation by following the links to the classes above. It's okay if you don't totally understand what the parameters are doing.
 
-3. Change the features you use to do preditions. The baseline model in the tutorial uses just `["Pclass", "Sex", "SibSp", "Parch"]`. Try using fewer features or more features or different features. Make an effort to fill in empty values with means, modes, or medians! Don't forget to convert string categorical variables to integers with `factorize()` or `get_dummies()`.
+3. Change the **features** you use to do preditions. The baseline model in the tutorial uses just `["Pclass", "Sex", "SibSp", "Parch"]`. Try using fewer features or more features or different features. Make an effort to fill in empty values with means, modes, or medians! Don't forget to convert string categorical variables to integers with `factorize()` or `get_dummies()`.
 
 ## 4. Submit your predictions
 
@@ -115,5 +90,5 @@ Once you are done with all your experiments and have submitted 10 (or more) subm
 3. Take a screenshot of your leaderboard results.
 4. Put the notebook and the screenshot in your GitHub repo, commit, and push. **Even though this is a team project, each teammate should add these two files to their personal GitHub repo.**
 
-**This is due Friday, April 26, 11:59pm EDT.** 
+**This is due Wednesday, November 27, 11:59pm EDT.** 
 
